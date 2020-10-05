@@ -1,9 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="29f0ccff-664f-49d7-8f24-ae05f4201eb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.cache/30/3ebd1fe2e3d6cf744ed581d09d29d6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/fc/ea2ecffeb0a8213e256e3218ce9d09.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/scss/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/ts/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/assets/ts/partials/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/img/Praktika_1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/img/cassandra_vm.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/img/foologo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/img/image 13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/img/image 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/slick-1.8.1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/slick/config.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/slick/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/slick/slick-theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/slick/slick-theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/slick/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/slick/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/slick/slick.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/slick/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/slick/slick.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +77,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iSEzmhloXtPcrXxu3ZuDFR577d" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
@@ -41,7 +94,17 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dev/assets/scss/lib" />
+      <recent name="$PROJECT_DIR$/dev/assets/scss" />
+      <recent name="$PROJECT_DIR$/dev/assets/js/lib" />
+      <recent name="$PROJECT_DIR$/dev/assets/img" />
+      <recent name="$PROJECT_DIR$/dev/assets" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -56,11 +119,39 @@
       <updated>1601208785158</updated>
       <workItem from="1601208786410" duration="18672000" />
       <workItem from="1601891643266" duration="663000" />
-      <workItem from="1601892864440" duration="312000" />
+      <workItem from="1601892864440" duration="2335000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="242" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601895086133">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="440" y="242" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.826@0.23.1440.826" timestamp="1601895086133" />
+    <state x="457" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601893803037">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="457" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.826@0.23.1440.826" timestamp="1601893803037" />
+    <state x="449" y="342" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601894796286">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="449" y="342" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1440.826@0.23.1440.826" timestamp="1601894796286" />
   </component>
 </project>
