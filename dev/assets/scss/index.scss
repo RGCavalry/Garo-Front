@@ -1,5 +1,563 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap-select/dist/css/bootstrap-select";
 
-h1 {
-  color: red;
+.filtersSection {
+  .filtersBlock {
+    .caret {
+      display: none;
+    }
+
+    .filter-option {
+      padding-top: 7px;
+    }
+
+    .dropdown-item {
+      width: 356px;
+    }
+
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    .filterBlock {
+      width: 33.3%;
+    }
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+
+    .btn-garo {
+      background: #2b2b2b;
+      width: 357px !important;
+      height: 50px;
+      font-size: 18px;
+      border-radius: 6px;
+      border: 0 solid black;
+      color: rgba(255, 255, 255, 0.65);
+    }
+  }
+
+  .btnsBlock {
+    margin-left: 850px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+    .checkbox input[type="checkbox"] {
+      opacity: 0;
+    }
+
+
+    .checkbox label {
+      position: relative;
+      display: inline-block;
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.85);
+
+      /*16px width of fake checkbox + 6px distance between fake checkbox and text*/
+      padding-left: 30px;
+    }
+
+    .checkbox label::before,
+    .checkbox label::after {
+      position: absolute;
+      content: "";
+
+      /*Needed for the line-height to take effect*/
+      display: inline-block;
+    }
+
+    /*Outer box of the fake checkbox*/
+    .checkbox label::before {
+      height: 20px;
+      width: 20px;
+
+      border: 2px solid #00C2FF;
+      box-sizing: border-box;
+      left: 0px;
+
+      /*(24px line-height - 16px height of fake checkbox) / 2 - 1px for the border
+       *to vertically center it.
+       */
+      top: 3px;
+    }
+
+    /*Checkmark of the fake checkbox*/
+    .checkbox label::after {
+      height: 5px;
+      width: 9px;
+      border-left: 2px solid #00C2FF;;
+      border-bottom: 2px solid #00C2FF;;
+
+      transform: rotate(-45deg);
+
+      left: 5px;
+      top: 9px;
+    }
+
+    /*Hide the checkmark by default*/
+    .checkbox input[type="checkbox"] + label::after {
+      content: none;
+    }
+
+    /*Unhide on the checked state*/
+    .checkbox input[type="checkbox"]:checked + label::after {
+      content: "";
+    }
+
+    /*Adding focus styles on the outer-box of the fake checkbox*/
+    .checkbox input[type="checkbox"]:focus + label::before {
+
+    }
+
+
+  }
+
+  .ticketBtn {
+
+  }
+}
+
+body {
+  background: #181818 !important;;
+  font-family: Roboto;
+  color: white;
+}
+
+.container {
+  width: 1200px !important;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.navbar {
+  background: #27292d !important;
+  height: 77px;
+  margin-bottom: unset !important;
+}
+
+.navActive {
+  border-bottom: 3px solid #00C2FF;
+}
+
+.navItem {
+  font-weight: 400;
+  font-size: 23px;
+  padding-top: 22px;
+  height: 77px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.85) !important;
+  cursor: pointer;
+
+}
+
+.items {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin-left: 27%;
+
+}
+
+.cbody {
+  background: #1f2023;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+.ticketBtn {
+  width: 129px;
+  height: 42.14px;
+  background: rgba(0, 0, 0, 0.5);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  z-index: 10;
+  border: 2px solid #00C2FF;
+  color: #00C2FF;
+  box-sizing: border-box;
+  text-transform: uppercase;
+
+  &:hover {
+    color: #cb5a44;
+    border: 2px solid #cb5a44;
+  }
+}
+
+.sliderBtn {
+  @extend .ticketBtn;
+  position: absolute;
+  top: 300px;
+  right: 20px;
+}
+
+
+.carousel-indicators .custom {
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid transparent;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.popular {
+  text-align: center;
+  padding: 10px 30px 0px 30px;
+  color: white;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+.lineBlocks {
+  margin-bottom: 40px;
+}
+
+.line {
+  width: 100%;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.qq {
+  border: 1px solid red;
+}
+
+.filmImg {
+  display: block;
+  margin-bottom: 30px;
+  height: 530px;
+
+}
+
+.itemblock:hover {
+  cursor: pointer;
+}
+
+.shadow {
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  right: 0;
+  height: 530px;
+  width: 350px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 26.56%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.itemblock {
+  margin-bottom: 30px;
+}
+
+.filmImgLeft {
+  padding-left: 40px;
+}
+
+.filmImgCenter {
+  display: block;
+  margin: 0 auto;
+}
+
+.filmImgRight {
+
+  margin-left: -12px;
+}
+
+.imgBtn {
+  position: absolute;
+  top: 24px;
+  left: 48px;
+
+
+}
+
+.cyrcle {
+  margin-top: 6px;
+  margin-right: 10px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background: #01c1ff;
+}
+
+.today {
+  z-index: 19;
+  display: flex;
+  text-transform: uppercase;
+  color: rgba(24, 24, 24, 0.85);
+}
+
+.footerLogo {
+  width: 260px;
+  margin: 50px auto;
+}
+
+.filmName {
+  padding: 0;
+  text-transform: uppercase;
+  word-break: break-all;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  word-wrap: normal;
+  top: 100px;
+  height: 345px;
+  width: 200px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 26px;
+  left: 50px;
+}
+
+.filmGenre {
+  position: absolute;
+  top: 450px;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: rgba(255, 255, 255, 0.65);
+  left: 50px;
+}
+
+#filmDetailMain {
+  display: flex;
+
+  .leftBlock {
+    img {
+      height: 691px;
+      width: 460px;
+    }
+  }
+
+  .rightBlock {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 24px;
+    line-height: 28px;
+
+    .ticketBtn {
+      margin-left: 54px;
+      margin-top: 60px;
+    }
+
+    .b2 {
+
+      padding-top: 10px;
+
+      div {
+        margin-top: 9px;
+        margin-left: 54px;
+        max-width: 80%;
+      }
+
+      span {
+        color: rgba(255, 255, 255, 0.6);
+      }
+    }
+
+    .b1, .b2 {
+      padding-bottom: 15px;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .b3 {
+      width: 100%;
+      margin-left: 54px;
+      padding-right: 54px;
+      margin-top: 22px;
+
+
+    }
+
+    .line1 {
+      padding-left: 54px;
+      display: flex;
+      justify-content: space-between;
+      color: #00C2FF;
+    }
+
+    .genre, .time {
+      padding-left: 54px;
+      font-size: 24px;
+      line-height: 28px;
+
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .time {
+      margin-top: 9px;
+
+      span {
+        margin-left: 10px;
+      }
+    }
+
+    h1 {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 56px;
+
+      color: rgba(255, 255, 255, 0.85);
+      display: block;
+
+    }
+
+    .rate {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 56px;
+      text-align: right;
+    }
+
+  }
+
+}
+
+#framesSection {
+  margin-top: 77px;
+  .line{
+
+    width: 64%;
+  }
+  #frames {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 77px;
+
+    img {
+      display: block;
+
+    }
+  }
+}
+.qq{
+  border: 1px solid red;
+}
+#reviewSection {
+  margin-top: 50px;
+  .comment{
+    margin: 0 auto;
+    width: 826px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    textarea{
+      width: 100%;
+      height: 126px;
+      background: rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.65);
+      padding: 10px 15px;
+      border-radius: 6px;
+      border: 0 solid black;
+    }
+    .rateLine{
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 72px;
+      .stars{
+        display: flex;
+        .star{
+          font-size: 42px;
+          color: #00C2FF;;
+        }
+      }
+      .ticketBtn{
+        margin-top: 13px;
+      }
+    }
+
+    #sendComment{
+
+    }
+
+  }
+  .commentList{
+    width: 826px;
+    margin: 46px auto;
+    .userComment{
+      margin: 46px auto;
+    }
+    .fLine{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 36px;
+      .name{
+        color: rgba(255, 255, 255, 0.6);
+      }
+      .rate{
+        text-align: right;
+        color: #00C2FF;
+      }
+    }
+    .content{
+      margin-top: 16px;
+      max-width: 100%;
+      font-size: 24px;
+      color: rgba(255, 255, 255, 0.85);
+
+    }
+  }
+}
+
+#cinemaList{
+  margin-top: -40px;
+  padding-left: 160px;
+  .cinemaItem{
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .lblock{
+    width: 200px;
+    margin-top: 27px;
+
+    .ticketBtn{
+      display: block;
+      width: 143px!important;
+      height: 60px!important;
+    }
+  }
+
+  .cinemaRBlock{
+    margin-left: 40px;
+    border-left: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    padding-left: 40px;
+
+    width: 100%;
+    h1{
+      display: block;
+      font-size: 30px;
+      line-height: 40px;
+      color: rgba(255, 255, 255, 0.85);
+    }
+    span{
+      display: block;
+      margin-top: 5px;
+      width: 380px;
+      font-size: 15px;
+      line-height: 28px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+  }
 }

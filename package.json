@@ -4,7 +4,8 @@
   "description": "garo-frontend",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build ./dev/*.html --no-minify"
+    "build": "parcel build ./dev/*.html --no-minify",
+    "watch": "parcel ./dev/*.html --open"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "bootstrap-select": "^1.13.18",
     "jquery": "^3.5.1"
   }
 }
