@@ -19,22 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29f0ccff-664f-49d7-8f24-ae05f4201eb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dev/assets/img/image 27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/assets/img/image 28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/assets/img/image 29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/assets/img/image 30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/cinemaList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/ts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/ts/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/films.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/films.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="29f0ccff-664f-49d7-8f24-ae05f4201eb1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +83,7 @@
       <workItem from="1601891643266" duration="663000" />
       <workItem from="1601892864440" duration="2335000" />
       <workItem from="1602086275568" duration="1463000" />
-      <workItem from="1602324339485" duration="30691000" />
+      <workItem from="1602324339485" duration="31055000" />
     </task>
     <servers />
   </component>
