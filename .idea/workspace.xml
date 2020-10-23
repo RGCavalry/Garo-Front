@@ -19,7 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29f0ccff-664f-49d7-8f24-ae05f4201eb1" name="Default Changelist" comment="" />
+    <list default="true" id="29f0ccff-664f-49d7-8f24-ae05f4201eb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dev/assets/img/timeImg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/pages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/profile_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/09/d556f3b4b02e2166a3d3e7458fcb7b.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/09/d556f3b4b02e2166a3d3e7458fcb7b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/40/a74efc321b33220f6671aaee51f7d8.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/40/a74efc321b33220f6671aaee51f7d8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/assets/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/index.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +55,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dev/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -56,16 +64,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Vladislav\garo\dev" />
-      <recent name="C:\Users\Vladislav\garo\dev\assets\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Vladislav\garo\dev\assets\img" />
       <recent name="$PROJECT_DIR$/dev/assets/scss/lib" />
       <recent name="$PROJECT_DIR$/dev/assets/scss" />
       <recent name="$PROJECT_DIR$/dev/assets/js/lib" />
       <recent name="$PROJECT_DIR$/dev/assets/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vladislav\garo\dev\assets\img" />
+      <recent name="C:\Users\Vladislav\garo\dev" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,7 +91,8 @@
       <workItem from="1601891643266" duration="663000" />
       <workItem from="1601892864440" duration="2335000" />
       <workItem from="1602086275568" duration="1463000" />
-      <workItem from="1602324339485" duration="31055000" />
+      <workItem from="1602324339485" duration="33146000" />
+      <workItem from="1603455857477" duration="2516000" />
     </task>
     <servers />
   </component>
