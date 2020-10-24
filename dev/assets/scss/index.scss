@@ -34,6 +34,7 @@
     height: 80px;
 
     .btn-garo {
+      margin-left: 5px;
       background: #2b2b2b;
       width: 357px !important;
       height: 50px;
@@ -191,13 +192,15 @@ body {
   color: #00C2FF;
   box-sizing: border-box;
   text-transform: uppercase;
+  white-space: nowrap;
 
   &:hover {
     color: #cb5a44;
     border: 2px solid #cb5a44;
   }
 }
-.cancel{
+
+.cancel {
   color: #FF6161;
   border: 2px solid #FF6161;;
 }
@@ -230,6 +233,7 @@ body {
   font-weight: normal;
   font-size: 23px;
   line-height: 20px;
+  white-space: nowrap;
 }
 
 .lineBlocks {
@@ -624,7 +628,7 @@ body {
     color: rgba(255, 255, 255, 0.85);
 
     .ticketBtn {
-      white-space: nowrap;
+
       width: 225px;
       font-size: 16px;
       margin-top: 20px;
@@ -646,7 +650,7 @@ body {
 
 }
 
-#regPage, #pay{
+#regPage, #pay {
   background: rgba(0, 0, 0, 0.5);
 
   .formBlock {
@@ -707,17 +711,35 @@ body {
     }
   }
 }
-.accent{
+
+.room {
+  height: 33px;
+  width: 61px;
+  text-transform: uppercase;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  background: #00C2FF;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 33px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.accent {
   color: #00C2FF;
 }
+
 .booking {
-  hr{
-    height: 2px ;
+  hr {
+    height: 2px;
     background: rgba(255, 255, 255, 0.3);
-    margin:60px 30px 60px 30px;
+    margin: 60px 30px 60px 30px;
   }
+
   .mainBox {
-    .box{
+    .box {
       height: 40px;
       width: 40px;
       background: #353639;
@@ -730,15 +752,18 @@ body {
       text-align: center;
       z-index: 0;
     }
-    .boxSelected{
+
+    .boxSelected {
       background: #00C2FF;
       color: #27292D;
     }
-    .boxInvalid{
+
+    .boxInvalid {
       background: #FF6161;
       color: #FF6161;
     }
-    .left{
+
+    .left {
       .display {
         background: rgba(255, 255, 255, 0.2);
         border-radius: 6px;
@@ -751,10 +776,13 @@ body {
         margin-bottom: 30px;
         color: rgba(255, 255, 255, 0.65);
       }
+
       padding-left: 70px;
-      .placeLine{
+
+      .placeLine {
         display: flex;
-        .lineName{
+
+        .lineName {
           padding-top: 9px;
           padding-right: 14px;
           color: rgba(255, 255, 255, 0.65);
@@ -763,34 +791,41 @@ body {
 
       }
     }
-    .right{
-      .infoBox{
+
+    .right {
+      .infoBox {
         width: 327px;
         height: 291px;
         background: #27292D;
         border: 2px solid rgba(255, 255, 255, 0.3);
         box-sizing: border-box;
         padding: 40px 30px;
-        .mLine{
-          .title{
+
+        .mLine {
+
+          .title {
             margin-top: 10px;
             font-size: 18px;
             color: rgba(255, 255, 255, 0.85);
           }
-          span{
+
+          span {
             color: rgba(255, 255, 255, 0.6);
             padding-left: 30px;
             padding-top: 5px;
           }
         }
       }
-      .box{
+
+      .box {
         margin-top: 9px;
       }
-      .typesPlaces{
+
+      .typesPlaces {
         margin-top: 38px;
       }
-      span{
+
+      span {
         display: block;
         padding-top: 18px;
         padding-left: 10px;
@@ -798,28 +833,34 @@ body {
 
     }
   }
-  .bottom{
+
+  .bottom {
     height: 150px;
     padding-bottom: 40px;
-    .totalBlock{
+
+    .totalBlock {
       margin-left: 65%;
 
       width: 370px;
-      .totalLine{
+
+      .totalLine {
         font-size: 26px;
         line-height: 30px;
         display: flex;
         align-items: center;
         text-align: right;
-        span{
+
+        span {
           padding: 0 8px;
         }
       }
-      .btnsBlock{
+
+      .btnsBlock {
         display: flex;
         justify-content: space-between;
         margin-top: 20px;
-        .ticketBtn{
+
+        .ticketBtn {
           text-align: center;
           min-width: 130px;
           width: auto;
@@ -830,18 +871,22 @@ body {
     }
   }
 }
-#pay{
-  .formBlock{
+
+#pay {
+  .formBlock {
     padding-top: 8%;
     top: 0px;
+
     .cancel {
       margin-left: 160px;
     }
   }
-  .form{
+
+  .form {
     width: 560px;
   }
-  .ticketBlock{
+
+  .ticketBlock {
     background-image: url(/assets/img/ticket.svg);
     height: 225px;
     width: 516px;
@@ -851,10 +896,12 @@ body {
     padding-left: 30px;
 
     color: rgba(255, 255, 255, 0.6);
-    span{
+
+    span {
       color: rgba(255, 255, 255, 0.85);
     }
-    p{
+
+    p {
       height: 26px;
       padding-top: 0;
       margin: 0;
@@ -864,9 +911,103 @@ body {
 
   }
 
-  .total{
+  .total {
     font-size: 24px;
     margin-top: 30px;
     margin-left: 20px;
+  }
+}
+
+.sessions {
+
+  .filmInfo{
+    font-size: 18px;
+    line-height: 21px;
+
+    color: rgba(255, 255, 255, 0.6);
+    p{
+      margin-left: 10px;
+      white-space: nowrap;
+    }
+    img{
+      display: block;
+    }
+  }
+  .line{
+    height: 25px;
+  }
+  .popular{
+    .filmInfo{
+
+      span{
+        display: block;
+        margin: 8px 0 20px 10px;
+        color: rgba(255, 255, 255, 0.85);
+        font-size: 26px;
+        opacity: 0.85;
+        text-align: left;
+      }
+      p{
+        text-align: left;
+        text-transform: none!important;
+      }
+    }
+  }
+  .underFilter{
+    justify-content: space-between;
+    padding:10px 50px;
+  }
+  .btnsBlock {
+    margin-left: unset;
+    width: unset;
+    .setSessionsBtn {
+      @extend .ticketBtn;
+      width: 250px;
+      margin-right: 20px;
+    }
+  }
+
+  .itemblock {
+    .box {
+      padding-top: 34px;
+      padding-bottom: 54px;
+      width: 90%;
+      margin: 0 auto;
+      background: #27292D;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      box-sizing: border-box;
+
+      .room {
+        left: 25px;
+      }
+
+      .sessionLine {
+        display: flex;
+        width: 65%;
+        padding-top: 20px;
+        margin: 0 auto;
+
+        span {
+          display: block;
+          text-align: right;
+          font-size: 20px;
+          line-height: 43px;
+          color: rgba(255, 255, 255, 0.85);
+          padding-right: 25px;
+        }
+
+        .setSessionsBtn {
+          width: 300px;
+        }
+
+        .ticketBtn {
+          width: 353px !important;
+          line-height: 38px;
+          font-size: 18px;
+          text-align: center;
+
+        }
+      }
+    }
   }
 }
