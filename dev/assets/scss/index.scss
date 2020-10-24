@@ -197,6 +197,10 @@ body {
     border: 2px solid #cb5a44;
   }
 }
+.cancel{
+  color: #FF6161;
+  border: 2px solid #FF6161;;
+}
 
 .sliderBtn {
   @extend .ticketBtn;
@@ -220,12 +224,12 @@ body {
 .popular {
   text-align: center;
   padding: 10px 30px 0px 30px;
-  color: white;
+  color: rgba(255, 255, 255, 0.85);
   text-transform: uppercase;
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 .lineBlocks {
@@ -642,7 +646,7 @@ body {
 
 }
 
-#regPage {
+#regPage, #pay{
   background: rgba(0, 0, 0, 0.5);
 
   .formBlock {
@@ -821,11 +825,48 @@ body {
           width: auto;
           padding: 9px;
         }
-        .cancel{
-          color: #FF6161;
-          border: 2px solid #FF6161;;
-        }
+
       }
     }
+  }
+}
+#pay{
+  .formBlock{
+    padding-top: 8%;
+    top: 0px;
+    .cancel {
+      margin-left: 160px;
+    }
+  }
+  .form{
+    width: 560px;
+  }
+  .ticketBlock{
+    background-image: url(/assets/img/ticket.svg);
+    height: 225px;
+    width: 516px;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 20px;
+    padding-left: 30px;
+
+    color: rgba(255, 255, 255, 0.6);
+    span{
+      color: rgba(255, 255, 255, 0.85);
+    }
+    p{
+      height: 26px;
+      padding-top: 0;
+      margin: 0;
+      padding-bottom: 0;
+      padding-left: 26px;
+    }
+
+  }
+
+  .total{
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 20px;
   }
 }

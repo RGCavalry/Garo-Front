@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29f0ccff-664f-49d7-8f24-ae05f4201eb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dev/assets/img/ticket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/booking_pay.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/09/d556f3b4b02e2166a3d3e7458fcb7b.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/09/d556f3b4b02e2166a3d3e7458fcb7b.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/40/a74efc321b33220f6671aaee51f7d8.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/40/a74efc321b33220f6671aaee51f7d8.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/assets/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/pages.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pages.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +92,7 @@
       <workItem from="1601892864440" duration="2335000" />
       <workItem from="1602086275568" duration="1463000" />
       <workItem from="1602324339485" duration="33146000" />
-      <workItem from="1603455857477" duration="13402000" />
+      <workItem from="1603455857477" duration="16283000" />
     </task>
     <servers />
   </component>
