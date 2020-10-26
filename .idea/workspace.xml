@@ -20,18 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29f0ccff-664f-49d7-8f24-ae05f4201eb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dev/sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/sessions_admin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/09/d556f3b4b02e2166a3d3e7458fcb7b.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/09/d556f3b4b02e2166a3d3e7458fcb7b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/35/62a6799ae343f735276e5acebab59c.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/35/62a6799ae343f735276e5acebab59c.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/40/a74efc321b33220f6671aaee51f7d8.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/40/a74efc321b33220f6671aaee51f7d8.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/9d/44bc4705e755bf570b1b67bfc2a931.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/9d/44bc4705e755bf570b1b67bfc2a931.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/e1/8976fe1981967fc1970be4769f40f0.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/e1/8976fe1981967fc1970be4769f40f0.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/assets/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/booking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/pages.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +91,8 @@
       <workItem from="1601892864440" duration="2335000" />
       <workItem from="1602086275568" duration="1463000" />
       <workItem from="1602324339485" duration="33146000" />
-      <workItem from="1603455857477" duration="23999000" />
+      <workItem from="1603455857477" duration="28678000" />
+      <workItem from="1603637661387" duration="345000" />
     </task>
     <servers />
   </component>
@@ -139,10 +134,14 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="457" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.826@0.23.1440.826" timestamp="1601893803037" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602413616463">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603637996248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.-653.2560.1400@0.0.1536.824" timestamp="1602413616463" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.-653.2560.1400@0.0.1536.824" timestamp="1603637996248" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1603566138244">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.-653.2560.1400@0.0.1536.824" timestamp="1603566138244" />
     <state x="449" y="342" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601894796286">
       <screen x="0" y="23" width="1440" height="826" />
     </state>

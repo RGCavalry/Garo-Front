@@ -1,6 +1,10 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 @import "../../../node_modules/bootstrap-select/dist/css/bootstrap-select";
 
+$accentColor: #00C2FF;
+$negativColor: #FF6161;
+$positiveColor:#93FF61;
+
 .filtersSection {
   .filtersBlock {
     .caret {
@@ -963,7 +967,6 @@ body {
     .setSessionsBtn {
       @extend .ticketBtn;
       width: 250px;
-      margin-right: 20px;
     }
   }
 
@@ -1008,6 +1011,66 @@ body {
 
         }
       }
+    }
+  }
+}
+.saveBtn{
+  color: $positiveColor;
+  border:2px solid $positiveColor;
+}
+.sessionsAdmin{
+  .btnsBlock{
+    width: 550px;
+  }
+  .delEvent{
+    width: 197px;
+    height: 43px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    /* NegativeColor */
+    font-size: 18px;
+    line-height: 36px;
+    color: $negativColor;
+
+    border: 2px solid $negativColor;
+    box-sizing: border-box;
+  }
+  .sessionLine{
+    input{
+      width: 77.6px;
+      background: #353639;
+      border-radius: 6px;
+      color: #FFFFFF;
+      border: 0px solid saddlebrown;
+      text-align: center;
+      font-size: 18px;
+      margin-left: 5px;
+    }
+    .btnSq{
+      line-height: 39.14px;
+      width: 43px;
+      height: 43px;
+      margin-left: 5px;
+      //border-radius: 6px;
+      font-size: 12px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    .delBtn{
+      @extend .btnSq;
+      color: $negativColor;
+      border: 1px solid $negativColor;
+    }
+    .addBtn{
+      @extend .btnSq;
+      margin-right: 0;
+      margin-left: auto;
+      color: $positiveColor;
+      border: 1px solid $positiveColor;
+
+
     }
   }
 }

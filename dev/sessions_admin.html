@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/scss/index.scss">
+    <link rel="stylesheet " type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <img src="/assets/img/logo.svg" alt="Гаро">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="items">
+                <div class="navItem ">Фильмы</div>
+                <div class="navItem navActive">Сеансы</div>
+                <div class="navItem">Кинотеатры</div>
+                <div class="navItem">Профиль</div>
+
+            </div>
+        </div>
+
+    </nav>
+</header>
+
+
+<div class="container cbody sessions sessionsAdmin" style="padding: 60px 0 0 0;">
+    <section class="filtersSection">
+        <div class="filtersBlock  d-flex">
+            <div class="filterBlock">
+                <div class="filterBlock">
+                    <select name="film" title="Фильм" class="selectpicker" data-style="btn-garo" id="film">
+                        <option value="" selected>Жокер</option>
+                        <option value="">Комедия</option>
+                        <option value="">Мелодрама</option>
+                    </select>
+                </div>
+            </div>
+            <div class="filterBlock">
+                <input type="date" class="form-control btn-garo" data-style="btn-garo" name="date"
+                       placeholder="Дата">
+            </div>
+            <div class="filterBlock">
+                <select title="Кинотеатр" name="producer" id="cinema" data-style="btn-garo" class="selectpicker">
+                    <option value="">Гаро 6</option>
+                    <option value="">Гаро 7</option>
+                    <option value="">Гаро 8</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="underFilter d-flex">
+            <div class="filmInfo d-flex">
+                <img height="55" width="37" src="/assets/img/joker.png" alt="Жокер"/>
+                <div>
+                    <p>триллер, драма, криминал, 18+</p>
+                    <p>122 мин. / 02:02</p>
+                </div>
+            </div>
+            <div class="btnsBlock">
+
+                <button class="setSessionsBtn">Настроить кинотеатры</button>
+                <button class="ticketBtn">Показать</button>
+                <button class="ticketBtn saveBtn">Сохранить</button>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+    <div style="display: flex" class="lineBlocks">
+        <div style="width: 100px" class="line"></div>
+        <div class="popular">Гаро 11 Сентябрь</div>
+        <div class="line"></div>
+    </div>
+    <div class="row" style="padding: 0 20px 20px  17px;">
+        <div class="col-lg-4 itemblock">
+            <div class="box">
+                <div class="room">Зал 1</div>
+                <div class="sessionLine">
+                    <input type="text" value="10:20"/>
+                    <input type="text" value="200Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+                    <input type="text" value="11:20"/>
+                    <input type="text" value="200Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+                    <input type="text" value="13:20"/>
+                    <input type="text" value="400Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+                    <input type="text" value="13:40"/>
+                    <input type="text" value="400Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+                    <input type="text" value="19:20"/>
+                    <input type="text" value="500Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+                    <input type="text" value="20:20"/>
+                    <input type="text" value="800Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+
+                    <div class="addBtn">&#10010;</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 itemblock">
+            <div class="box">
+                <div class="room">Зал 2</div>
+                <div class="sessionLine">
+                    <input type="text" value="10:20"/>
+                    <input type="text" value="200Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+                    <input type="text" value="11:20"/>
+                    <input type="text" value="200Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+                    <input type="text" value="13:20"/>
+                    <input type="text" value="400Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+                    <input type="text" value="13:40"/>
+                    <input type="text" value="400Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+                    <input type="text" value="19:20"/>
+                    <input type="text" value="500Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+                    <input type="text" value="20:20"/>
+                    <input type="text" value="800Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+
+                    <div class="addBtn">&#10010;</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 itemblock">
+            <div class="box">
+                <div class="room">Зал 3</div>
+                <div class="sessionLine">
+                    <input type="text" value="10:20"/>
+                    <input type="text" value="200Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+                    <input type="text" value="11:20"/>
+                    <input type="text" value="200Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+                    <input type="text" value="13:20"/>
+                    <input type="text" value="400Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+                    <input type="text" value="13:40"/>
+                    <input type="text" value="400Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+                    <input type="text" value="19:20"/>
+                    <input type="text" value="500Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+                    <input type="text" value="20:20"/>
+                    <input type="text" value="800Р"/>
+                    <div class="delBtn">&#10006;</div>
+                </div>
+                <div class="sessionLine">
+
+                    <div class="addBtn">&#10010;</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="delEvent">Удалить показ</div>
+
+    </div>
+
+    <div style="display: flex" class="lineBlocks">
+        <div style="width: 100px" class="line"></div>
+        <div class="popular">
+            <div class="filmInfo d-flex">
+                <img height="107" width="73" src="/assets/img/joker.png" alt="Жокер"/>
+                <div>
+                    <span>Жокер</span>
+                    <p>триллер, драма, криминал, 18+</p>
+                    <p>122 мин. / 02:02</p>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="row" style="padding: 0 20px 20px  17px;">
+        <div class="col-lg-4 itemblock">
+            <div class="box">
+                <div class="room">Зал 1</div>
+                <div class="sessionLine">
+                    <span>10:20</span>
+                    <div class="ticketBtn">200Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>13:20</span>
+                    <div class="ticketBtn">200Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>14:20</span>
+                    <div class="ticketBtn">300Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>16:20</span>
+                    <div class="ticketBtn">300Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>18:20</span>
+                    <div class="ticketBtn">400Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>23:20</span>
+                    <div class="ticketBtn">400Р</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 itemblock">
+            <div class="box">
+                <div class="room">Зал 2</div>
+                <div class="sessionLine">
+                    <span>10:20</span>
+                    <div class="ticketBtn">200Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>13:20</span>
+                    <div class="ticketBtn">200Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>14:20</span>
+                    <div class="ticketBtn">300Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>16:20</span>
+                    <div class="ticketBtn">300Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>18:20</span>
+                    <div class="ticketBtn">400Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>23:20</span>
+                    <div class="ticketBtn">400Р</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 itemblock">
+            <div class="box">
+                <div class="room">Зал 3</div>
+                <div class="sessionLine">
+                    <span>10:20</span>
+                    <div class="ticketBtn">200Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>13:20</span>
+                    <div class="ticketBtn">200Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>14:20</span>
+                    <div class="ticketBtn">300Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>16:20</span>
+                    <div class="ticketBtn">300Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>18:20</span>
+                    <div class="ticketBtn">400Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>23:20</span>
+                    <div class="ticketBtn">400Р</div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div style="display: flex" class="lineBlocks">
+        <div style="width: 100px" class="line"></div>
+        <div class="popular">ГАРО 3 АЛТУФЬЕВО</div>
+        <div class="line"></div>
+    </div>
+    <div class="row" style="padding: 0 20px 20px  17px;">
+        <div class="col-lg-4 itemblock">
+            <div class="box">
+                <div class="room">Зал 1</div>
+                <div class="sessionLine">
+                    <span>10:20</span>
+                    <div class="ticketBtn">200Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>13:20</span>
+                    <div class="ticketBtn">200Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>14:20</span>
+                    <div class="ticketBtn">300Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>16:20</span>
+                    <div class="ticketBtn">300Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>18:20</span>
+                    <div class="ticketBtn">400Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>23:20</span>
+                    <div class="ticketBtn">400Р</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 itemblock">
+            <div class="box">
+                <div class="room">Зал 2</div>
+                <div class="sessionLine">
+                    <span>10:20</span>
+                    <div class="ticketBtn">200Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>13:20</span>
+                    <div class="ticketBtn">200Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>14:20</span>
+                    <div class="ticketBtn">300Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>16:20</span>
+                    <div class="ticketBtn">300Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>18:20</span>
+                    <div class="ticketBtn">400Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>23:20</span>
+                    <div class="ticketBtn">400Р</div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-4 itemblock">
+            <div class="box">
+                <div class="room">Зал 3</div>
+                <div class="sessionLine">
+                    <span>10:20</span>
+                    <div class="ticketBtn">200Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>13:20</span>
+                    <div class="ticketBtn">200Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>14:20</span>
+                    <div class="ticketBtn">300Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>16:20</span>
+                    <div class="ticketBtn">300Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>18:20</span>
+                    <div class="ticketBtn">400Р</div>
+                </div>
+                <div class="sessionLine">
+                    <span>23:20</span>
+                    <div class="ticketBtn">400Р</div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <div class="footerLogo">
+        <img src="/assets/img/foologo.svg" alt="Гаро">
+    </div>
+
+</footer>
+
+<script src="/assets/ts/index.ts"></script>
+<script>
+
+    $('.selectpicker').selectpicker();
+</script>
+</body>
+</html>
